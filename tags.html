@@ -1,59 +1,136 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Tags</title>
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+
+<link rel="stylesheet" href="reglas.css">
+
+
+
 </head>
 
 <body>
 
-    <header>
 
-        <h1>HTML Tags</h1>
+<!-- Responsive navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-        <nav>
-            <a href="index.html">Login</a> |
-            <a href="tags.html">HTML Tags</a> |
-            <a href="profile.html">Profile</a>
-        </nav>
+    <div class="container">
 
-    </header>
+        <a class="navbar-brand" href="index.html">
+            Mi Website
+        </a>
 
-    <main>
+        <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
 
-        <h2>Diferentes HTML Tags</h2>
+            <span class="navbar-toggler-icon"></span>
 
-        <div>
-            <p>
-                Un parrafo usando el 
-                <strong>strong tag</strong>.
-            </p>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Login
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="tags.html">
+                        HTML Tags
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">
+                        Profile
+                    </a>
+                </li>
+
+            </ul>
+
         </div>
 
-        <div>
-            <p>
-                Un ejemplo de br (line break).
-                <br>
-                EL texto aparece en una nueva linea.
-            </p>
-        </div>
+    </div>
+
+</nav>
+
+<main class="container">
+
+        <h1 class="text-center mt-4 mb-4">
+            HTML Tags
+        </h1>
+
+        <h2>
+            Diferentes HTML Tags
+        </h2>
+        
+
+    <div class="profile-section">
+
+        <p>
+            Un parrafo usando el
+            <strong>strong tag</strong>.
+        </p>
+
+    </div>
+
+    <div class="profile-section">
+
+        <p class="highlight">
+            Un ejemplo de br (line break).
+            <br />
+            El texto aparece en una nueva linea.
+        </p>
+
+    </div>
+
+    <div class="profile-section">
+
+        <p id="special-paragraph">
+            Visita mi
+            <a href="profile.html">pagina profile</a>
+            para saber mas de mi =)
+        </p>
+
+    </div>
+
+    <div class="profile-section">
+
+        <h3>
+            Ejemplo de Texto
+        </h3>
+
+        <p>
+            Este es un ejemplo de un parrafo utilizando
+            HTML y Bootstrap.
+        </p>
+
+    </div>
+
+</main>
 
 
-        <div>
-            <p>
-                Visita mi
-                <a href="profile.html">pagina profile</a>
-                para saber mas de mi =)
-            </p>
-        </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-        <div>
-            <h3>Ejemplo de Texto</h3>
-        </div>
-
-    </main>
 
 </body>
 

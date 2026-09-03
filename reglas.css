@@ -1,0 +1,70 @@
+/* General styles */
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f1e8;
+margin: 0;
+padding: 0;
+}
+
+/* Main headings */
+
+h1 {
+color: #8b4513;
+}
+
+h2 {
+color: #a0522d;
+}
+
+/* All paragraphs */
+
+p {
+color: #444444;
+line-height: 1.6;
+}
+
+/* Paragraphs using a class */
+
+.highlight {
+color: #c75b12;
+}
+
+/* Paragraph using an ID */
+
+#special-paragraph {
+color: #6b2d5c;
+}
+
+/* Images */
+
+img {
+border-radius: 50%;
+max-width: 200px;
+height: auto;
+}
+
+/* Main content */
+
+main {
+padding: 30px;
+}
+
+/* Login form */
+
+.login-container {
+max-width: 500px;
+margin: 40px auto;
+padding: 30px;
+background-color: white;
+border-radius: 10px;
+}
+
+/* Profile sections */
+
+.profile-section {
+margin-bottom: 30px;
+padding: 20px;
+background-color: white;
+border-radius: 10px;
+}

@@ -1,69 +1,132 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Profile</title>
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+
+<link rel="stylesheet" href="reglas.css">
+
 </head>
 
 <body>
 
-    <header>
 
-        <h1>Mi Profile</h1>
 
-        <nav>
-            <a href="index.html">Login</a> |
-            <a href="tags.html">HTML Tags</a> |
-            <a href="profile.html">Profile</a>
-        </nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-    </header>
+    <div class="container">
 
-    <main>
+        <a class="navbar-brand" href="index.html">
+            Mi Website
+        </a>
 
-        <div>
+        <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
 
-            <h2>About Me</h2>
+            <span class="navbar-toggler-icon"></span>
 
-            <img src="photo.jpeg"
-                 alt="photo de MiTec"
-                 width="200">
+        </button>
 
-            <p>
-                <strong>Nombre:</strong> Grecia
-            </p>
+        <div class="collapse navbar-collapse" id="navbarNav">
 
-            <p>
-                <strong>Edad:</strong> 21
-            </p>
+            <ul class="navbar-nav ms-auto">
 
-            <p>
-                <strong>Email:</strong> a00840745@tec.mx
-            </p>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Login
+                    </a>
+                </li>
 
-            <p>
-                <strong>Escuela:</strong> Tec de monterrey
-            </p>
+                <li class="nav-item">
+                    <a class="nav-link" href="tags.html">
+                        HTML Tags
+                    </a>
+                </li>
 
-            <p>
-                <strong>Carrera:</strong> ITC
-            </p>
+                <li class="nav-item">
+                    <a class="nav-link active" href="profile.html">
+                        Profile
+                    </a>
+                </li>
 
-        </div>
-
-        <div>
-
-            <h2>MIS DATOS</h2>
-
-            <p>
-                Holaaaa Soy Grecia Archuleta Mi matricula es A00840745 :) 
-            </p>
+            </ul>
 
         </div>
 
-    </main>
+    </div>
+
+</nav>
+
+<main class="container">
+
+    <h1 class="text-center mt-4 mb-4">
+        Mi Profile
+    </h1>
+
+    <div class="profile-section text-center">
+
+        <h2>
+            About Me
+        </h2>
+
+        <img src="photo.jpeg"
+            alt="photo de MiTec"
+            class="img-fluid mb-4">
+
+        <p>
+            <strong>Nombre:</strong> Grecia
+        </p>
+
+        <p class="highlight">
+            <strong>Edad:</strong> 21
+        </p>
+
+        <p>
+            <strong>Email:</strong> a00840745@tec.mx
+        </p>
+
+        <p id="special-paragraph">
+            <strong>Escuela:</strong> Tec de Monterrey
+        </p>
+
+        <p>
+            <strong>Carrera:</strong> ITC
+        </p>
+
+    </div>
+
+    <div class="profile-section">
+
+        <h2>
+            MIS DATOS
+        </h2>
+
+        <p>
+            Holaaaa Soy Grecia Archuleta. Mi matricula es
+            A00840745 :)
+        </p>
+
+    </div>
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
