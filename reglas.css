@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+/* General styles */
+
+>>>>>>> 8571c9e731a3aa6f2e9c41fe1d77d9d36c461c27
 body {
 font-family: Arial, sans-serif;
 background-color: #f5f1e8;
@@ -15,34 +20,61 @@ h2 {
 color: #a0522d;
 }
 
+<<<<<<< HEAD
+=======
+/* All paragraphs */
+
+>>>>>>> 8571c9e731a3aa6f2e9c41fe1d77d9d36c461c27
 p {
 color: #444444;
 line-height: 1.6;
 }
 
+<<<<<<< HEAD
+=======
+/* Paragraphs using a class */
+
+>>>>>>> 8571c9e731a3aa6f2e9c41fe1d77d9d36c461c27
 .highlight {
 color: #c75b12;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Paragraph using an ID */
+>>>>>>> 8571c9e731a3aa6f2e9c41fe1d77d9d36c461c27
 
 #special-paragraph {
 color: #6b2d5c;
 }
 
+<<<<<<< HEAD
+=======
+/* Images */
+
+>>>>>>> 8571c9e731a3aa6f2e9c41fe1d77d9d36c461c27
 img {
 border-radius: 50%;
 max-width: 200px;
 height: auto;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Main content */
+>>>>>>> 8571c9e731a3aa6f2e9c41fe1d77d9d36c461c27
 
 main {
 padding: 30px;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Login form */
+>>>>>>> 8571c9e731a3aa6f2e9c41fe1d77d9d36c461c27
 
 .login-container {
 max-width: 500px;
@@ -52,7 +84,11 @@ background-color: white;
 border-radius: 10px;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Profile sections */
+>>>>>>> 8571c9e731a3aa6f2e9c41fe1d77d9d36c461c27
 
 .profile-section {
 margin-bottom: 30px;
@@ -60,6 +96,7 @@ padding: 20px;
 background-color: white;
 border-radius: 10px;
 }
+<<<<<<< HEAD
 
 
 
@@ -112,3 +149,5 @@ body.tema-oscuro #formulario-registro .form-label,
 body.tema-oscuro #formulario-registro .form-text {
     color: #f8f9fa;
 }
+=======
+>>>>>>> 8571c9e731a3aa6f2e9c41fe1d77d9d36c461c27
